@@ -28,7 +28,7 @@ export const theme = (() => {
 
             if (element.classList.contains('bg-black')) {
                 element.classList.remove('bg-black');
-                element.classList.add('bg-white');
+                element.style.backgroundColor = '#ffd0eb';
             }
 
             if (element.classList.contains('bg-theme-dark')) {
@@ -68,7 +68,7 @@ export const theme = (() => {
 
             if (element.classList.contains('bg-white')) {
                 element.classList.remove('bg-white');
-                element.classList.add('bg-black');
+                element.style.backgroundColor = '#000000';
             }
 
             if (element.classList.contains('bg-theme-light')) {
